@@ -1,0 +1,19 @@
+/*Documento CSS*/
+
+body { background-color: #a2ccef; }
+
+h1 { text-align: center;
+     color: black;
+     font-family: "Roboto", serif; }
+
+h2 { text-align: left;
+     color: #060477;}
+
+.titulo { background-color: #73b5ea;
+          padding: 8px 0px; }
+
+.contenido p, .contenido ul { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              text-align: justify;
+                              font-size: 18px;
+                              line-height: 140%;}
+
