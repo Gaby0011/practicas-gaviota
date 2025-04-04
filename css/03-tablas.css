@@ -1,0 +1,22 @@
+/*Documento CSS*/
+* { margin: 0px;
+    padding: 0px;}
+
+body {  font-family: "Quicksand", sans-serif;}
+
+h1 { font-family: "Anton", sans-serif;
+     text-align: center; }
+
+.cabecera { margin-bottom: 32px; } 
+
+.tablas { background-color: #016d9f;
+          min-height: 1px;
+          padding: 16px 0px; 
+          margin-bottom: 32px; }
+
+div.tablas { background-color: honeydew;
+             margin-bottom: 80px;}
+
+.tablas table { margin: auto;}
+
+.pie { background-color: #fffacd;}

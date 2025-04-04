@@ -1,0 +1,62 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0; }
+
+/*tipografia*/
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular.woff2') format('woff2'),
+        url('../fonts/Bebas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.cabecera { font-family: 'Bebas'; 
+            background: #00a6ff;
+            padding-top: 8px;
+            min-height: 1px;}
+
+.bar { width: 100%;
+       min-height: 1px; }
+
+.logo { color: #ffdd62; 
+        width: 40px;
+        font-size: 2em; 
+        display: block;
+        margin: auto; }
+
+.container { display: flex;
+             width: 100%;
+             flex-flow: row wrap; }
+
+.items { width: 50%;
+         text-align: center; 
+         color: #a4cef2;
+         background-color: ghostwhite;
+         padding: 8px 0px; }
+
+.container a:first-child { display: none; }
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:600px) { 
+
+    .items { width: 25%;}
+    .logo { font-size: 3em;}
+}
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) { 
+
+    .items { width: 20%;}
+
+    .logo { font-size: 3em;}
+
+    .container { width: 80%;
+                 margin: auto;
+                 position: relative;
+                 top: 15px;}
+
+    .container a:first-child { display: block; }
+}

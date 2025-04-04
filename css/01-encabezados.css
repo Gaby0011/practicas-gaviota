@@ -1,0 +1,12 @@
+/*Documento css*/
+
+body { background-color: #dabef5; }
+
+h1, h3 { color: #5098eb;
+         font-size: 32px; 
+         text-align: center; 
+         line-height: 130%; }
+
+h2, h4 { color: #eb81b2; }
+
+h5{ color: #f1df68; }
