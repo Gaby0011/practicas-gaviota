@@ -1,0 +1,150 @@
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:768px) { 
+
+    .items { width: 10%;
+             flex-direction: column; }
+    .logo { font-size: 3em; }
+}
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) { 
+
+    .items { width: 20%;
+             color: #aa0439;
+             }
+
+    .logo { font-size: 3em;}
+
+    .container { width: 80%;
+                 margin: auto;
+                 position: relative;
+                 top: 15px;}
+
+    .container a:first-child { display: block; }
+
+
+
+}
+
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0; }
+
+body { background-color: #aa0439;
+       font-family: "Bebas Neue", sans-serif; }
+
+.cabecera { font-family: 'Bebas'; 
+            background: #f83d78;
+            padding-top: 8px;
+            min-height: 1px;}
+
+h1 { text-transform: uppercase; }
+
+h3 { padding: 70px;}
+
+.bar { width: 100%;
+       min-height: 1px; }
+
+.logo { color: #72d6e5; 
+        width: 40px;
+        font-size: 2em; 
+        display: block;
+        margin: auto; }
+
+.bar { width: 100%;
+       min-height: 1px; }
+
+.contenedor { display: flex;
+             width: 100%;
+             display: flex;
+             flex-direction: row;
+             flex-flow: row wrap; }
+
+.items { width: 50%;
+         font-family: "Oswald", sans-serif;
+         text-align: center; 
+         color: #a4cef2;
+         background-color: ghostwhite;
+         padding: 8px 0px; }
+
+.container a:first-child { display: none; }
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:600px) { 
+
+    .items { width: 25%;}
+    .logo { font-size: 3em;}
+    .about-img { flex-basis: 10%; }
+
+    .about-img img { width: 200px; 
+              height: 200px;
+              border-radius: 100%;
+              object-fit: cover; 
+              margin-left: 30%;}
+
+    .about-txt { flex-basis: 120%; }
+
+    .about-txt p { color: snow; 
+            font-size: 5px;
+            margin-bottom: 40px; 
+            margin-left: 5%; 
+            flex-direction: column; }
+}
+
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) { 
+
+    .items { width: 20%;
+             color: #a4cef2;}
+
+    .logo { font-size: 3em;}
+
+    .contenedor { width: 80%;
+                 margin: auto;
+                 position: relative;
+                 top: 15px;}
+
+    .contenedor a:first-child { display: block; }
+
+
+    <div class="perfil">
+    <div>
+      <h3>Educación profesional</h3>
+      <p>Licenciatura en Diseño Gráfico en ITSON</p>
+    </div>
+    <div>
+      <h3>Experiencia</h3>
+      <li>Diseño de tipografia</li>
+      <li>Diseño de plan de marketing</li>
+      <li>Edición de imagenes</li>
+    </div>
+  <div>
+    <h3>Hard Skills</h3>
+    <li>Illustrador</li>
+    <li>Photoshop</li>
+    <li>Indesign</li>
+    <li>Fotografia</li>
+    <li>Ingles</li>
+  </div>
+  <div>
+    <h3>Soft Skills</h3>
+    <li>Trabajo en equipo</li>
+    <li>Empatia</li>
+    <li>Pensamiento Crítico</li>
+    <li>Creatividad</li>
+    <li>Adaptabilidad</li>
+  </div>
+  </div>
+
+  .perfil { display: flex;
+    flex-wrap: wrap;
+   justify-content: flex;
+   margin-left: 10%;
+   margin-right: 10%;
+   flex-direction: row; }
+ 
+.perfil li { display: flexbox;}

@@ -1,0 +1,180 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+       padding: 0; }
+       
+body { background-color: #aa0439;
+       font-family: "Bebas Neue", sans-serif; }
+
+h2 { color: bisque;
+     text-align: center;
+     margin-top: 20px;}
+
+.cabecera { font-family: 'Bebas'; 
+            background: #f83d78;
+            padding-top: 8px;
+            min-height: 1px;}
+   
+.bar { width: 100%;
+       min-height: 1px; }
+   
+.logo { color: #72d6e5; 
+        width: 40px;
+        font-size: 2em; 
+        display: block;
+        margin: auto; }
+   
+.contenedor { display: flex;
+              width: 100%;
+              flex-flow: row wrap; }
+   
+.items { width: 50%;
+         text-align: center; 
+         color: #a4cef2;
+         background-color: ghostwhite;
+         padding: 8px 0px; }
+   
+.container a:first-child { display: none; }
+
+.about { padding: 0 0 100px 0;
+         display: flex;
+         align-items: center; }
+
+.about-img { flex-basis: 20%; }
+
+.about-img img { width: 200px; 
+                 height: 200px;
+                 border-radius: 50%;
+                 object-fit: cover; 
+                 margin-left: 50%;}
+
+.about-txt { flex-basis: 70%; }
+
+.about-txt p { color: bisque; 
+               font-size: 25px;
+               margin-bottom: 20px; 
+               margin-left: 15%; 
+               flex-direction: column; }
+
+.perfil { display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          background-color: #2a3a5f; }
+
+.perfiles { width: 300px;
+            margin: 50px;
+            color: bisque;
+            font-size: 25px; }
+
+.contacto input { width: 100%;
+                  padding: 8px;
+                  margin-bottom: 8px;
+                  border-radius: 8px;
+                  border: 1px solid #15acb78b; }
+              
+#btn { width: 120px; }
+            
+.contacto { width: 80%; 
+            margin: 32px auto; 
+            display: flex; 
+            flex-direction: column;}
+
+.icons { width: 100%;
+         min-height: 1px; 
+         background-color: #082947;
+         margin-bottom: 0px;}
+
+.icono { color: #72d6e5; 
+         width: 40px;
+         font-size: 2em; 
+         display: flex;
+         margin: auto; }
+
+
+.pie { background-color: #f83d78;
+       color: floralwhite;
+       font-family: "Kavivanar", cursive;
+       text-align: center; 
+       padding: 16px 0px; }
+
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:600px) { 
+
+       .items { width: 25%;}
+       .logo { font-size: 3em;}
+       .about { padding: 0 0 100px 0;
+              display: flex;
+              align-items: center; }
+     
+     .about-img { flex-basis: 20%; }
+     
+     .about-img img { width: 200px; 
+                      height: 200px;
+                      border-radius: 50%;
+                      object-fit: cover; 
+                      margin-left: 50%;}
+     
+     .about-txt { flex-basis: 70%; }
+     
+     .about-txt p { color: snow; 
+                    font-size: 25px;
+                    margin-bottom: 20px; 
+                    margin-left: 30%; 
+                    flex-direction: column; }
+     
+     .perfil { display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               background-color: #2a3a5f; }
+     
+     .perfiles { width: 300px;
+                 margin: 50px;
+                 font-size: 25px; }
+     
+
+}
+@media only screen and (min-width:992px) { 
+
+       .items { width: 20%;
+                color: #a4cef2;}
+                 
+       .logo { font-size: 3em;}
+                 
+       .contenedor { width: 80%;
+                     margin: auto;
+                     position: relative;
+                     top: 15px;}
+                 
+       .contenedor a:first-child { display: block; }
+
+       .about { padding: 0 0 100px 0;
+              display: flex;
+              align-items: center; }
+     
+     .about-img { flex-basis: 20%; }
+     
+     .about-img img { width: 200px; 
+                      height: 200px;
+                      border-radius: 50%;
+                      object-fit: cover; 
+                      margin-left: 50%;}
+     
+     .about-txt { flex-basis: 70%; }
+     
+     .about-txt p { color: snow; 
+                    font-size: 25px;
+                    margin-bottom: 20px; 
+                    margin-left: 30%; 
+                    flex-direction: column; }
+     
+     .perfil { display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               background-color: #2a3a5f; }
+     
+     .perfiles { width: 300px;
+                 margin: 80px;
+                 font-size: 25px; }     
+}
